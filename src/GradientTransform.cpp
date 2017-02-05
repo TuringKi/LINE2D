@@ -1,7 +1,7 @@
 #include "..\include\GradientTransform.h"
 
 #include <opencv2\opencv.hpp>
-#include <opencv2\core\internal.hpp>
+
 
 //#define _TIMER_
 #ifdef _TIMER_

@@ -12,6 +12,9 @@ static Timer t;
 
 #include <fstream>
 
+#ifndef CV_SQR
+#  define CV_SQR(x)  ((x)*(x))
+#endif
 
 namespace rl2d
 {

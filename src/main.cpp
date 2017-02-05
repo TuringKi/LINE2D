@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	// insert the configuration file path
 	std::string configFile;
 	if(argc==1) // for lazy monkey, you can insert path by hard coding
-		configFile = "D:\\project\\VSProject\\LINE2D4IKEA\\Bin_LINE2DIKEA\\data\\HBLTS8\\config.prototxt";
+		configFile = "F:\\Matching\\LINE2D-master\\data\\HBLTS8\\config.prototxt";
 	else // the second param in cmd line
 		configFile = std::string(argv[1]);
 	RuntimeConfig runtimeConfig;

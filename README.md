@@ -40,4 +40,5 @@ This code repository aims at real-time texture-less object instance detection an
 
 Before you try you own data, you should scan the file `LINE2D_ROOT/protobuf/Config.prototxt` and understand the meaning of each paramter. Then you can write a configura file for you own data like `LINE2D_ROOT/data/HBLTS8/config.prototxt`.
 
-
+###NOTE
+Use X64 to build the solution.

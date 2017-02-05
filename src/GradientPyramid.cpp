@@ -7,6 +7,11 @@
 static Timer t;
 #endif
 
+
+#ifndef CV_SQR
+#  define CV_SQR(x)  ((x)*(x))
+#endif
+
 namespace rl2d
 {
 	GradientPyramid::GradientPyramid(const cv::Mat &a_src, const cv::Mat &a_mask)
